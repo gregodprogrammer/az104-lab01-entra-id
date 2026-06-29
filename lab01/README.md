@@ -129,9 +129,7 @@ Confirmed the group, its members, and its owner were all created correctly.
 
 ## ⚠️ Challenges Encountered
 
-> Pulled in from `challenges.md` once the lab is fully complete.
-
-*(to be filled in)*
+- **Wrong remote URL during push:** Initially set up the GitHub remote with a placeholder (`YOUR-USERNAME`) instead of the actual repo URL, which caused `git push` to fail with "repository not found." Resolved using `git remote set-url origin <correct-url>` and confirming with `git remote -v` before retrying the push.
 
 ## 💡 Key Takeaways
 
