@@ -11,6 +11,7 @@ This repository documents my hands-on lab work as I prepare for the **AZ-104: Mi
 |---|---|---|---|
 | 01 | [Manage Microsoft Entra ID Identities](./lab01/README.md) | Users, guest users, security groups | ✅ Complete |
 | 02a | [Manage Subscriptions and RBAC](./lab02a/README.md) | Management groups, built-in & custom roles, Activity Log | ⬜ In Progress |
+| 02b | [Manage Governance via Azure Policy](./lab02b/README.md) | Tags, Azure Policy, remediation, resource locks | ⬜ In Progress |
 | 03 | *Coming soon* | | ⬜ Not started |
 
 ## 🗂️ Repo Structure
@@ -22,7 +23,11 @@ az104/
 │   ├── README.md       ← full lab write-up
 │   ├── challenges.md    ← raw notes on issues hit during the lab
 │   └── screenshots/     ← step-by-step screenshots
-└── lab02a/
+├── lab02a/
+│   ├── README.md
+│   ├── challenges.md
+│   └── screenshots/
+└── lab02b/
     ├── README.md
     ├── challenges.md
     └── screenshots/
